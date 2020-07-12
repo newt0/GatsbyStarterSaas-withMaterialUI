@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-
+import FacebookIcons from '@material-ui/icons/Facebook'
 import { Section, Container } from "../global"
 
 const Features = () => (
@@ -11,6 +11,7 @@ const Features = () => (
       <FeaturesGrid>
         <FeatureItem>
           <FeatureTitle>Notifications</FeatureTitle>
+          <FacebookIcons />
           <FeatureText>
             Receive budget and spending alerts based on your favorite triggers.
           </FeatureText>
