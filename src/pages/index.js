@@ -8,6 +8,7 @@ import Header from "../components/sections/header"
 import Features from "../components/sections/features"
 import Footer from "../components/sections/footer"
 import GetStarted from "../components/sections/getstarted"
+import MediaCard from "../components/MediaCard"
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <Header />
     <Features />
     <GetStarted />
+    <MediaCard />
     <Footer />
   </Layout>
 )
